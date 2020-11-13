@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/','SiteController@index');
 
 Route::get('/users', 'UserController@index');
+
+Route::get('/instructors', 'InstructorController@index');
+
+Route::get('/learners', 'LearnerController@index');
