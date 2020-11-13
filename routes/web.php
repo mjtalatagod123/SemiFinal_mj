@@ -20,3 +20,5 @@ Route::get('/users', 'UserController@index');
 Route::get('/instructors', 'InstructorController@index');
 
 Route::get('/learners', 'LearnerController@index');
+
+Route::get('/courses', 'CourseController@index');
