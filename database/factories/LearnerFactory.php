@@ -10,7 +10,7 @@ $factory->define(Learner::class, function (Faker $faker) {
     $stt = ['active', 'inactive', 'suspended'];
 
     return [
-        'user_id' => rand(1,20),
+        'user_id' => $faker->unique()->numberBetween(1,50),
         'level' => $levs[array_rand($levs)],
         'status' => $stt[array_rand($stt)],
     ];
