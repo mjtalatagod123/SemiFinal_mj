@@ -20,7 +20,7 @@
             <td>{{$ln->user->fname}}</td>
             <td>{{$ln->status}}</td>
         </tr>
-
+\
         @endforeach
     </tbody>
 </table>
