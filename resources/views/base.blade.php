@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <script src="{{url('js/bootstrap.min.css')}}"></script>
-    <title>Lentrix CourseWare</title>
+    <title>CourseWare</title>
 </head>
 <body>
 
@@ -18,7 +18,7 @@
     </div>
 
     <footer>
-        Copyright &copy; 2020. Lentrix CourseWare, Inc. <br>
+        Copyright &copy; 2020. MJ CourseWare, Inc. <br>
         All rights reversed.
     </footer>
 </body>

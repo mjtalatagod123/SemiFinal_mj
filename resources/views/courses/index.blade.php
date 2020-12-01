@@ -3,7 +3,7 @@
 @section('content')
     <h1>Courses</h1>
     <table class="table table-bordered table-striped table-sm">
-        <thead>
+        <thead style="background-color: #4747d1; color: #ffffff;">
             <th>Name</th>
             <th>Description</th>
             <th>Start</th>
